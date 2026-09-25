@@ -76,8 +76,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void Mover(float moviendo, bool saltando, bool atacando)
     {
-        Vector3 velocidadObjetivo = new Vector2(moviendo, rb2D.velocity.y);
-        rb2D.velocity = Vector3.SmoothDamp(rb2D.velocity, velocidadObjetivo, ref velocidad, SuavizadoDeMovimiento);
+        Vector3 velocidadObjetivo = new Vector2(moviendo, rb2D.linearVelocity.y);
+        rb2D.linearVelocity = Vector3.SmoothDamp(rb2D.linearVelocity, velocidadObjetivo, ref velocidad, SuavizadoDeMovimiento);
 
         if (moviendo > 0 && !mirandoDerecha)
         {
