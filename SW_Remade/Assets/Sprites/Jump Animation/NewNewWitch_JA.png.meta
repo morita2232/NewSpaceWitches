@@ -1,0 +1,383 @@
+fileFormatVersion: 2
+guid: f5073072b46d744418562968e63f7e44
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1039558378515995251
+    second: NewNewWitch_JA_0
+  - first:
+      213: 3313875193725104760
+    second: NewNewWitch_JA_1
+  - first:
+      213: 4068077910700971651
+    second: NewNewWitch_JA_2
+  - first:
+      213: 7469087319972197332
+    second: NewNewWitch_JA_3
+  - first:
+      213: -6917905472897614922
+    second: NewNewWitch_JA_4
+  - first:
+      213: -3788024838051717838
+    second: NewNewWitch_JA_5
+  - first:
+      213: 5068310905434925496
+    second: NewNewWitch_JA_6
+  - first:
+      213: 8955310551918579121
+    second: NewNewWitch_JA_7
+  - first:
+      213: 2408788303593801081
+    second: NewNewWitch_JA_8
+  - first:
+      213: -632158158083241544
+    second: NewNewWitch_JA_9
+  - first:
+      213: 6155371506169418846
+    second: NewNewWitch_JA_10
+  - first:
+      213: 1386573457401318126
+    second: NewNewWitch_JA_11
+  - first:
+      213: 6669380432356462763
+    second: NewNewWitch_JA_12
+  - first:
+      213: -7840334240448293710
+    second: NewNewWitch_JA_13
+  - first:
+      213: 2527087794938571774
+    second: NewNewWitch_JA_14
+  - first:
+      213: 506177372136465930
+    second: NewNewWitch_JA_15
+  - first:
+      213: 3758158191218264037
+    second: NewNewWitch_JA_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NewNewWitch_JA_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a1ab266d04d6e00800000000000000
+      internalID: 1039558378515995251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewNewWitch_JA_2
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 2
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 386d1f16e47b47830800000000000000
+      internalID: 4068077910700971651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewNewWitch_JA_5
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 3
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23d1297ca7b3e6bc0800000000000000
+      internalID: -3788024838051717838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewNewWitch_JA_8
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 3
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97503d6233cbd6120800000000000000
+      internalID: 2408788303593801081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewNewWitch_JA_11
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 2
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea046f86391e3310800000000000000
+      internalID: 1386573457401318126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewNewWitch_JA_13
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 2
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b45fb55c89813390800000000000000
+      internalID: -7840334240448293710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewNewWitch_JA_14
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 5
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efbe98dd5f4021320800000000000000
+      internalID: 2527087794938571774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewNewWitch_JA_15
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 5
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a06e88b53ad460700800000000000000
+      internalID: 506177372136465930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewNewWitch_JA_16
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 4
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e70a4d96f8a72430800000000000000
+      internalID: 3758158191218264037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 73a09219a7fcb664cb30cd9ecdb7ead3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NewNewWitch_JA_0: 1039558378515995251
+      NewNewWitch_JA_1: 3313875193725104760
+      NewNewWitch_JA_10: 6155371506169418846
+      NewNewWitch_JA_11: 1386573457401318126
+      NewNewWitch_JA_12: 6669380432356462763
+      NewNewWitch_JA_13: -7840334240448293710
+      NewNewWitch_JA_14: 2527087794938571774
+      NewNewWitch_JA_15: 506177372136465930
+      NewNewWitch_JA_16: 3758158191218264037
+      NewNewWitch_JA_2: 4068077910700971651
+      NewNewWitch_JA_3: 7469087319972197332
+      NewNewWitch_JA_4: -6917905472897614922
+      NewNewWitch_JA_5: -3788024838051717838
+      NewNewWitch_JA_6: 5068310905434925496
+      NewNewWitch_JA_7: 8955310551918579121
+      NewNewWitch_JA_8: 2408788303593801081
+      NewNewWitch_JA_9: -632158158083241544
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
