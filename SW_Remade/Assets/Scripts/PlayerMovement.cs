@@ -1,122 +1,156 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-
     private Rigidbody2D rb2D;
-    public Animator animator;
+
+    [SerializeField] private Animator animator;
+
     private Transform platformParent;
-
-    [Header("Movimiento")]
-
-    private float movimientoHorizontal = 0f;
-
-    [SerializeField] private float velocidadDeMovimiento;
-    [Range(0, 0.3f)][SerializeField] private float SuavizadoDeMovimiento;
-
-    private Vector3 velocidad = Vector3.zero;
-
+    private Vector2 velocidadSuavizado = Vector2.zero;
     private bool mirandoDerecha = true;
 
-    [Header("Salto")]
+    [Header("Movimiento")]
+    [SerializeField] private float velocidadDeMovimiento = 8f;
+    [Range(0f, 0.3f)]
+    [SerializeField] private float suavizadoDeMovimiento = 0.05f;
 
-    [SerializeField] private float fuerzaDeSalto;
+    private float movimientoHorizontal;
+
+    [Header("Salto")]
+    [SerializeField] private float fuerzaDeSalto = 10f;
     [SerializeField] private LayerMask queEsSuelo;
     [SerializeField] private Transform controladorSuelo;
-    [SerializeField] private Vector3 dimensionesCaja;
+    [SerializeField] private Vector2 dimensionesCaja = new Vector2(0.8f, 0.2f);
     [SerializeField] private bool enSuelo;
-    [SerializeField] private bool saltando = false;
 
+    private bool saltando;
 
     [Header("Ataque")]
+    [SerializeField] private KeyCode teclaDeAtaque = KeyCode.J;
+    [SerializeField] private GameObject prefabProyectil;
+    [SerializeField] private Transform puntoDisparo;
+    [SerializeField] private float tiempoEntreAtaques = 0.3f;
 
-    [SerializeField] private KeyCode teclaDeAtaque;
-    [SerializeField] private bool atacando;
+    private float siguienteAtaque;
 
-
-    private void Start()
+    private void Awake()
     {
         rb2D = GetComponent<Rigidbody2D>();
     }
 
     private void Update()
     {
-        movimientoHorizontal = Input.GetAxis("Horizontal") * velocidadDeMovimiento;
-
-
+        movimientoHorizontal = Input.GetAxisRaw("Horizontal");
 
         if (Input.GetButtonDown("Jump") && enSuelo)
         {
             saltando = true;
-            Debug.Log("En aire");
         }
 
-        if (Input.GetKeyDown(teclaDeAtaque))
+        if (Input.GetKeyDown(teclaDeAtaque) && Time.time >= siguienteAtaque)
         {
-            atacando = true;
-            Debug.Log("Atacando");
+            Atacar();
         }
-
-
-
     }
-
 
     private void FixedUpdate()
     {
-        enSuelo = Physics2D.OverlapBox(controladorSuelo.position, dimensionesCaja, 0f, queEsSuelo);
-        //mover
-        Mover(movimientoHorizontal * Time.fixedDeltaTime, saltando, atacando);
+        enSuelo = Physics2D.OverlapBox(
+            controladorSuelo.position,
+            dimensionesCaja,
+            0f,
+            queEsSuelo
+        ) != null;
+
+        Mover();
         saltando = false;
-        atacando = false;
-        animator.SetBool("isAttacking", false);
     }
 
-    private void Mover(float moviendo, bool saltando, bool atacando)
+    private void Mover()
     {
-        Vector3 velocidadObjetivo = new Vector2(moviendo, rb2D.linearVelocity.y);
-        rb2D.linearVelocity = Vector3.SmoothDamp(rb2D.linearVelocity, velocidadObjetivo, ref velocidad, SuavizadoDeMovimiento);
+        Vector2 velocidadObjetivo = new Vector2(
+            movimientoHorizontal * velocidadDeMovimiento,
+            rb2D.linearVelocity.y
+        );
 
-        if (moviendo > 0 && !mirandoDerecha)
+        rb2D.linearVelocity = Vector2.SmoothDamp(
+            rb2D.linearVelocity,
+            velocidadObjetivo,
+            ref velocidadSuavizado,
+            suavizadoDeMovimiento
+        );
+
+        if (movimientoHorizontal > 0f && !mirandoDerecha)
         {
-            //girar
             Girar();
         }
-        else if (moviendo < 0 && mirandoDerecha)
+        else if (movimientoHorizontal < 0f && mirandoDerecha)
         {
-            //girar
             Girar();
         }
+
         if (enSuelo && saltando)
         {
             enSuelo = false;
-            rb2D.AddForce(new Vector2(0f, fuerzaDeSalto));
+            rb2D.AddForce(Vector2.up * fuerzaDeSalto, ForceMode2D.Impulse);
         }
-        if(atacando)
-        {
-            animator.SetBool("isAttacking", true);
-        }
+
         animator.SetBool("isJumping", !enSuelo);
-        animator.SetBool("isMoving", moviendo != 0);
+        animator.SetBool("isMoving", movimientoHorizontal != 0f);
+    }
+
+    private void Atacar()
+    {
+        if (prefabProyectil == null || puntoDisparo == null)
+        {
+            Debug.LogWarning("Asigna Prefab Proyectil y Punto Disparo en el Inspector.");
+            return;
+        }
+
+        siguienteAtaque = Time.time + tiempoEntreAtaques;
+        animator.SetTrigger("Attack");
+
+        float direccion = mirandoDerecha ? 1f : -1f;
+
+        GameObject objetoProyectil = Instantiate(
+            prefabProyectil,
+            puntoDisparo.position,
+            Quaternion.identity
+        );
+
+        Proyectil proyectil = objetoProyectil.GetComponent<Proyectil>();
+
+        if (proyectil != null)
+        {
+            proyectil.Inicializar(direccion);
+        }
+        else
+        {
+            Debug.LogError("El prefab del proyectil necesita el script Proyectil.");
+            Destroy(objetoProyectil);
+        }
     }
 
     private void Girar()
     {
         mirandoDerecha = !mirandoDerecha;
+
         Vector3 escala = transform.localScale;
-        escala.x *= -1;
+        escala.x *= -1f;
         transform.localScale = escala;
     }
 
     private void OnDrawGizmos()
     {
+        if (controladorSuelo == null)
+            return;
+
         Gizmos.color = Color.red;
         Gizmos.DrawWireCube(controladorSuelo.position, dimensionesCaja);
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("MovingPlatform"))
         {
@@ -125,12 +159,13 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    void OnCollisionExit2D(Collision2D collision)
+    private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("MovingPlatform"))
+        if (collision.gameObject.CompareTag("MovingPlatform") &&
+            transform.parent == collision.transform)
         {
             transform.SetParent(null);
+            platformParent = null;
         }
     }
-
 }

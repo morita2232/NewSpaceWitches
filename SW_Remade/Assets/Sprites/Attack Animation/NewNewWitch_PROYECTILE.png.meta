@@ -1,0 +1,677 @@
+fileFormatVersion: 2
+guid: d98d823b5bda5764c8cf82d78fd47077
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6516726423628930175
+    second: NewNewWitch_PROYECTILE_0
+  - first:
+      213: 2031064127264631998
+    second: NewNewWitch_PROYECTILE_1
+  - first:
+      213: -1818125001820165346
+    second: NewNewWitch_PROYECTILE_2
+  - first:
+      213: -7671829869579002444
+    second: NewNewWitch_PROYECTILE_3
+  - first:
+      213: 1385844702233294424
+    second: NewNewWitch_PROYECTILE_4
+  - first:
+      213: -6801812630387314248
+    second: NewNewWitch_PROYECTILE_5
+  - first:
+      213: 3683257416086519394
+    second: NewNewWitch_PROYECTILE_6
+  - first:
+      213: -9109159991545931314
+    second: NewNewWitch_PROYECTILE_7
+  - first:
+      213: -646758809591701387
+    second: NewNewWitch_PROYECTILE_8
+  - first:
+      213: 4130617745593824002
+    second: NewNewWitch_PROYECTILE_9
+  - first:
+      213: -2901906287616439124
+    second: NewNewWitch_PROYECTILE_10
+  - first:
+      213: 662388633154264193
+    second: NewNewWitch_PROYECTILE_11
+  - first:
+      213: 7832841031867653049
+    second: NewNewWitch_PROYECTILE_12
+  - first:
+      213: -6302468453016869178
+    second: NewNewWitch_PROYECTILE_13
+  - first:
+      213: 634584538891947112
+    second: NewNewWitch_PROYECTILE_14
+  - first:
+      213: 2563360057304962483
+    second: NewNewWitch_PROYECTILE_15
+  - first:
+      213: -5181743098349773550
+    second: NewNewWitch_PROYECTILE_16
+  - first:
+      213: 6721022477230587110
+    second: NewNewWitch_PROYECTILE_17
+  - first:
+      213: -6102426605669023576
+    second: NewNewWitch_PROYECTILE_18
+  - first:
+      213: -4393102096839059185
+    second: NewNewWitch_PROYECTILE_19
+  - first:
+      213: -1518313073173189927
+    second: NewNewWitch_PROYECTILE_20
+  - first:
+      213: 7175196559487609328
+    second: NewNewWitch_PROYECTILE_21
+  - first:
+      213: -888300033489255012
+    second: NewNewWitch_PROYECTILE_22
+  - first:
+      213: -5298277898405077410
+    second: NewNewWitch_PROYECTILE_23
+  - first:
+      213: -1259566217046435277
+    second: NewNewWitch_PROYECTILE_24
+  - first:
+      213: 8233352720801396378
+    second: NewNewWitch_PROYECTILE_25
+  - first:
+      213: 285013733203791370
+    second: NewNewWitch_PROYECTILE_26
+  - first:
+      213: 4672776644392561344
+    second: NewNewWitch_PROYECTILE_27
+  - first:
+      213: -563225539507781575
+    second: NewNewWitch_PROYECTILE_28
+  - first:
+      213: 1199243427592091887
+    second: NewNewWitch_PROYECTILE_29
+  - first:
+      213: 7989080081902144460
+    second: NewNewWitch_PROYECTILE_30
+  - first:
+      213: 4374071171049521357
+    second: NewNewWitch_PROYECTILE_31
+  - first:
+      213: 3567663891061943693
+    second: NewNewWitch_PROYECTILE_32
+  - first:
+      213: -4558267326000288715
+    second: NewNewWitch_PROYECTILE_33
+  - first:
+      213: -3721801666117842546
+    second: NewNewWitch_PROYECTILE_34
+  - first:
+      213: 5771400065511970723
+    second: NewNewWitch_PROYECTILE_35
+  - first:
+      213: -5956069111845577199
+    second: NewNewWitch_PROYECTILE_36
+  - first:
+      213: -8771476397636370152
+    second: NewNewWitch_PROYECTILE_37
+  - first:
+      213: -488679692802085526
+    second: NewNewWitch_PROYECTILE_38
+  - first:
+      213: 5009512931200855977
+    second: NewNewWitch_PROYECTILE_39
+  - first:
+      213: 5396327098914655664
+    second: NewNewWitch_PROYECTILE_40
+  - first:
+      213: 4937306823332269518
+    second: NewNewWitch_PROYECTILE_41
+  - first:
+      213: 5651746449856552418
+    second: NewNewWitch_PROYECTILE_42
+  - first:
+      213: -8952938235972217742
+    second: NewNewWitch_PROYECTILE_43
+  - first:
+      213: 345642928527684050
+    second: NewNewWitch_PROYECTILE_44
+  - first:
+      213: -2150241544226159178
+    second: NewNewWitch_PROYECTILE_45
+  - first:
+      213: -7210781512428844639
+    second: NewNewWitch_PROYECTILE_46
+  - first:
+      213: -3311984484112078833
+    second: NewNewWitch_PROYECTILE_47
+  - first:
+      213: 5037401228331194299
+    second: NewNewWitch_PROYECTILE_48
+  - first:
+      213: -8010147420418712534
+    second: NewNewWitch_PROYECTILE_49
+  - first:
+      213: 1394509778623197997
+    second: NewNewWitch_PROYECTILE_50
+  - first:
+      213: -1784511175930252420
+    second: NewNewWitch_PROYECTILE_51
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NewNewWitch_PROYECTILE_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 16
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183223548dfef85a0800000000000000
+      internalID: -6516726423628930175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewNewWitch_PROYECTILE_2
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 16
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ba04591f8b4c6e0800000000000000
+      internalID: -1818125001820165346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewNewWitch_PROYECTILE_4
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 14
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 856f8760a628b3310800000000000000
+      internalID: 1385844702233294424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewNewWitch_PROYECTILE_5
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 14
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b1bff0437b1b91a0800000000000000
+      internalID: -6801812630387314248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewNewWitch_PROYECTILE_6
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 12
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26ef82eea1f8d1330800000000000000
+      internalID: 3683257416086519394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewNewWitch_PROYECTILE_8
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 12
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 570aee21a404607f0800000000000000
+      internalID: -646758809591701387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewNewWitch_PROYECTILE_10
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 10
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac462b3b9b5ab7d0800000000000000
+      internalID: -2901906287616439124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewNewWitch_PROYECTILE_12
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 10
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb53961b67d3bc60800000000000000
+      internalID: 7832841031867653049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewNewWitch_PROYECTILE_15
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 13
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5561f0462e29320800000000000000
+      internalID: 2563360057304962483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewNewWitch_PROYECTILE_17
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 13
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ecbeb2655ed54d50800000000000000
+      internalID: 6721022477230587110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewNewWitch_PROYECTILE_19
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 13
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0952e72be09803c0800000000000000
+      internalID: -4393102096839059185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewNewWitch_PROYECTILE_21
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 13
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f92dd9414b639360800000000000000
+      internalID: 7175196559487609328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewNewWitch_PROYECTILE_23
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 13
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e1348a25cb876b0800000000000000
+      internalID: -5298277898405077410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewNewWitch_PROYECTILE_25
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 13
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a96fcd96daeb24270800000000000000
+      internalID: 8233352720801396378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewNewWitch_PROYECTILE_27
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 13
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0caa2c3c99909d040800000000000000
+      internalID: 4672776644392561344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewNewWitch_PROYECTILE_29
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 13
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe839d42b8194a010800000000000000
+      internalID: 1199243427592091887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: df79667d03a7da84cb8db5a012bbc203
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NewNewWitch_PROYECTILE_0: -6516726423628930175
+      NewNewWitch_PROYECTILE_1: 2031064127264631998
+      NewNewWitch_PROYECTILE_10: -2901906287616439124
+      NewNewWitch_PROYECTILE_11: 662388633154264193
+      NewNewWitch_PROYECTILE_12: 7832841031867653049
+      NewNewWitch_PROYECTILE_13: -6302468453016869178
+      NewNewWitch_PROYECTILE_14: 634584538891947112
+      NewNewWitch_PROYECTILE_15: 2563360057304962483
+      NewNewWitch_PROYECTILE_16: -5181743098349773550
+      NewNewWitch_PROYECTILE_17: 6721022477230587110
+      NewNewWitch_PROYECTILE_18: -6102426605669023576
+      NewNewWitch_PROYECTILE_19: -4393102096839059185
+      NewNewWitch_PROYECTILE_2: -1818125001820165346
+      NewNewWitch_PROYECTILE_20: -1518313073173189927
+      NewNewWitch_PROYECTILE_21: 7175196559487609328
+      NewNewWitch_PROYECTILE_22: -888300033489255012
+      NewNewWitch_PROYECTILE_23: -5298277898405077410
+      NewNewWitch_PROYECTILE_24: -1259566217046435277
+      NewNewWitch_PROYECTILE_25: 8233352720801396378
+      NewNewWitch_PROYECTILE_26: 285013733203791370
+      NewNewWitch_PROYECTILE_27: 4672776644392561344
+      NewNewWitch_PROYECTILE_28: -563225539507781575
+      NewNewWitch_PROYECTILE_29: 1199243427592091887
+      NewNewWitch_PROYECTILE_3: -7671829869579002444
+      NewNewWitch_PROYECTILE_30: 7989080081902144460
+      NewNewWitch_PROYECTILE_31: 4374071171049521357
+      NewNewWitch_PROYECTILE_32: 3567663891061943693
+      NewNewWitch_PROYECTILE_33: -4558267326000288715
+      NewNewWitch_PROYECTILE_34: -3721801666117842546
+      NewNewWitch_PROYECTILE_35: 5771400065511970723
+      NewNewWitch_PROYECTILE_36: -5956069111845577199
+      NewNewWitch_PROYECTILE_37: -8771476397636370152
+      NewNewWitch_PROYECTILE_38: -488679692802085526
+      NewNewWitch_PROYECTILE_39: 5009512931200855977
+      NewNewWitch_PROYECTILE_4: 1385844702233294424
+      NewNewWitch_PROYECTILE_40: 5396327098914655664
+      NewNewWitch_PROYECTILE_41: 4937306823332269518
+      NewNewWitch_PROYECTILE_42: 5651746449856552418
+      NewNewWitch_PROYECTILE_43: -8952938235972217742
+      NewNewWitch_PROYECTILE_44: 345642928527684050
+      NewNewWitch_PROYECTILE_45: -2150241544226159178
+      NewNewWitch_PROYECTILE_46: -7210781512428844639
+      NewNewWitch_PROYECTILE_47: -3311984484112078833
+      NewNewWitch_PROYECTILE_48: 5037401228331194299
+      NewNewWitch_PROYECTILE_49: -8010147420418712534
+      NewNewWitch_PROYECTILE_5: -6801812630387314248
+      NewNewWitch_PROYECTILE_50: 1394509778623197997
+      NewNewWitch_PROYECTILE_51: -1784511175930252420
+      NewNewWitch_PROYECTILE_6: 3683257416086519394
+      NewNewWitch_PROYECTILE_7: -9109159991545931314
+      NewNewWitch_PROYECTILE_8: -646758809591701387
+      NewNewWitch_PROYECTILE_9: 4130617745593824002
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
